@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <ImageView
+        android:id="@+id/mImgSafaricom"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/safaricom" />
+
+    <TextView
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Via Mpesa at this Mobile No:0700881362" />
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/mImgMpesa"
+        android:layout_width="311dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mpesa" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Me Via My Cell Number Below:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic|bold" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mImgCall"
+            android:layout_width="113dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/callme" />
+
+        <TextView
+            android:id="@+id/mTvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="0700881362"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homethreatre">
+
+        <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/homethreatre"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homethreatre"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sony HT-S40R"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ultra high Definition"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can connect to bluetooth"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.1 Channel "
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KES 60,990"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/mBtnBuyNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY NOW" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_bg"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/mTvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMAZED ELECTRONICS" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@mipmap/amazed" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/mTvWelcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU ARE ALL WELCOMED TO MY SHOP" />
+
+    <Button
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/mBtnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Products" />
+</LinearLayout>
